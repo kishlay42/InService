@@ -46,11 +46,11 @@ function JoinUs() {
   return (
     <>
     <Navbar />
-     <main className="flex flex-col md:pt-28">
+     <main className="flex md:flex-col md:pt-28 max-md:mt-32">
       <section className="flex flex-col w-full max-md:max-w-full">
         <div className="flex flex-col justify-center px-20 py-10 w-full  max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col max-md:max-w-full">
-            <article className="flex flex-col ml-72 max-w-full text-xl leading-7 text-zinc-800 w-[510px]">
+            <article className="flex flex-col md:ml-72 max-w-full text-xl leading-7 text-zinc-800 w-[510px]">
               <h1 className="animate-x self-start text-6xl font-bold leading-[90px] max-md:text-4xl max-md:leading-10">
                 Let&apos;s work <br /> together!
               </h1>
@@ -67,11 +67,11 @@ function JoinUs() {
                 innovation? Take a look at the exciting opportunities listed below.
               </p>
             </article>
-           <div className="animate-y flex flex-row gap-14  max-md:mr-2.5 max-md:max-w-full mt-9 mx-32 w-full"> 
+           <div className="animate-y flex md:flex-row gap-14 max-md:flex-col  max-md:mr-2.5 max-md:max-w-full mt-9 md:mx-32 w-full"> 
             <img 
               src="./Anshu.jpg" 
               alt="Career opportunities showcase"
-              className="object-fill mt-14 w-[500px] h-[600px] aspect-[2.23] max-md:mt-10 " 
+              className="object-fill md:mt-14 md:w-[500px] md:h-[600px] max-md:h-[400px] aspect-[2.23] max-md:mt-10 " 
             />
             
               <video 
@@ -79,7 +79,7 @@ function JoinUs() {
                 autoPlay
                 loop
                 muted
-                className="object-fill mt-40 pt-12 w-[700px] h-[500px] aspect-[2.23] max-md:mt-10 "
+                className="object-fill md:mt-40 md:pt-12 md:w-[700px] md:h-[500px] aspect-[2.23]  "
               >
                 Your browser does not support the video tag.
               </video>
@@ -87,7 +87,7 @@ function JoinUs() {
             </div>
             <img 
               src="./Group.jpg" alt="Team collaboration showcase"
-              className="object-contain mt-9 mr-4 ml-3.5 w-full aspect-[2.08] max-w-[1632px] max-md:mr-2.5 max-md:max-w-full" 
+              className="object-contain mt-9 md:mr-4 md:ml-3.5 w-full aspect-[2.08] max-w-[1632px] max-md:mr-2.5 max-md:max-w-full" 
             />
             
             <section className="flex flex-wrap gap-5 justify-between mt-28 mr-4 ml-7 w-full max-w-[1618px] max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">

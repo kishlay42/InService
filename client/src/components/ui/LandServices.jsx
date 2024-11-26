@@ -15,7 +15,7 @@ import { useEffect } from "react";
             }
           });
         },
-        { threshold: 0.4 } // Adjust the threshold to trigger animation at desired visibility
+        { threshold: 0.1 } // Adjust the threshold to trigger animation at desired visibility
       );
   
       cards.forEach((card) => observer.observe(card));
@@ -30,7 +30,7 @@ import { useEffect } from "react";
         <div 
           className={`animate-on-y grid md:grid-cols-3 opacity-0 gap-x-24 pt-28 mx-auto w-5/6 text-[#333333] md:pb-36 card`}>
           <div className="para row-span-3  md:text-2xl max-md:mb-7 ">WHAT WE DO</div>
-          <p className="para" >
+          <div className="para" >
             01 <span className="md:text-5xl max-md:text-4xl ">Digital Transformation</span>
             <br />
             <br /> We empower local businesses to thrive in the digital age. By
@@ -44,8 +44,8 @@ import { useEffect } from "react";
                 <FaArrowUp className="mt-1 origin-center transform rotate-45 transition-transform duration-500 ease-out group-hover:rotate-90" />
               </span>
             </div>{" "}
-          </p>
-          <p className="para">
+          </div>
+          <div className="para">
             02 <span className="md:text-5xl max-md:text-4xl">Global Customer Acquisition</span>{" "}
             <br />
             <br />
@@ -60,8 +60,8 @@ import { useEffect } from "react";
                 <FaArrowUp className="mt-1 origin-center transform rotate-45 transition-transform duration-500 ease-out group-hover:rotate-90" />
               </span>
             </div>
-          </p>
-          <p className="para">
+          </div>
+          <div className="para">
             03 <span className="md:text-5xl max-md:text-4xl">Data-Driven Insights</span> <br />
             <br />
             Success in the digital world is fueled by informed decision-making. We
@@ -77,7 +77,7 @@ import { useEffect } from "react";
             <div className="">
               <ButtonM word="Our Services" className="max-md:w-[355px] max-md:px-[120px] max-md:mb-28" />
             </div>
-          </p>
+          </div>
         </div>
       </div>
     );

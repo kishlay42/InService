@@ -49,7 +49,7 @@ const Services = () => {
   return (
     <>
       <Navbar />
-      <section className="md:pb-36 md:mt-36 ">
+      <section className="md:pb-36 md:mt-36 max-md:mt-32 max-md:px-4 max-md:mb-20">
 
         <h1  className="animate-x text-8xl font-bold leading-none text-zinc-800 max-md:max-w-full max-md:text-4xl lg:pt-20 lg:ml-48">
           The services<br /> we provide

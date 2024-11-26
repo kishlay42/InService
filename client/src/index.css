@@ -135,3 +135,12 @@
       transform: translateY(0);
   }
 }
+
+
+/* Add this CSS to your stylesheet */
+@media (max-width: 768px) {
+  .svg-responsive {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

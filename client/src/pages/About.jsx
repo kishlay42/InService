@@ -49,7 +49,7 @@ const About = () => {
           }
         });
       },
-      { threshold: 0.4 } // Adjust the threshold to trigger animation at desired visibility
+      { threshold: 0.1 } // Adjust the threshold to trigger animation at desired visibility
     );
 
     cards.forEach((card) => observer.observe(card));
@@ -62,7 +62,7 @@ const About = () => {
     <div>
       <Navbar />
 
-      <main className="flex flex-col">
+      <main className="flex flex-col ">
         <div className=" md:mb-[100px]">
           {" "}
           <section className=" inset-0 flex justify-center top-0  items-center ">
@@ -74,9 +74,9 @@ const About = () => {
         </div>
 
         <section className="flex flex-col items-start px-20 pt-20 pb-12 w-full max-md:px-5 max-md:max-w-full">
-          <h1 className="animate-on-y card self-center text-5xl leading-10 text-zinc-800 max-md:max-w-full">
-            We stand firm in our belief that digital should not be a<br />
-            distraction; instead, it should act as an enabler of <br />
+          <h1 className="animate-on-y card self-center md:text-5xl max-md:text-3xl leading-10 text-zinc-800 max-md:max-w-full">
+            We stand firm in our belief that digital should not be a <br className="hidden md:block" />
+            distraction; instead, it should act as an enabler of <br className="hidden md:block" />
             human potential.
           </h1>
 

@@ -15,14 +15,14 @@ function Contact() {
   return (
     <> 
     <Navbar/>
-    <form className="flex flex-col max-w-[989px] text-zinc-800 lg:pb-36 mx-auto  md:mt-48">
+    <form className="flex flex-col max-w-[989px] text-zinc-800 lg:pb-36 mx-auto  md:mt-48 max-md:mt-32 max-md:px-4 max-md:mb-20">
       <header  className="flex flex-col items-start pr-20 pl-4 w-full max-md:pr-5 max-md:max-w-full">
         <h1 className="animate-x text-8xl font-bold  max-md:max-w-full max-md:text-4xl max-md:leading-10">
           Lets grow and solve <br /> together
         </h1>
         <p  className="animate-y mt-16 text-lg leading-6 max-md:mt-10">
-          The first step in creating something special starts with a<br />
-          conversation. Lets have a chat; fill out our form below or give <br />
+          The first step in creating something special starts with a <br className="hidden md:block" />
+          conversation. Lets have a chat; fill out our form below or give <br className="hidden md:block" />
           us a call at +91xxxxxxxxx.
         </p>
       </header>
