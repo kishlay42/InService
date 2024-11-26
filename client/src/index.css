@@ -144,3 +144,18 @@
     height: auto; /* Maintain aspect ratio */
   }
 }
+
+@keyframes draw {
+  from {
+    stroke-dasharray: 0;
+  }
+  to {
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 1;
+  }
+}
+
+.svg-draw path {
+  animation: draw 16s forwards;
+}
+

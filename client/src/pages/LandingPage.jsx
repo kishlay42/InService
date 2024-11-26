@@ -40,7 +40,7 @@ const LandingPage = () => {
           <div className="relative inline-block h-[110px] w-[315px] max-md:w-[190px] max-md:h-[65px] max-md:pl-3 inset-0">
             <span>service</span>
             <svg
-              className="absolute inset-0 w-full h-full pointer-events-none  max-md:w-[190px] max-md:h-[75px]"
+              className="svg-draw absolute inset-0 w-full h-full pointer-events-none  max-md:w-[190px] max-md:h-[75px]"
               width="968"
               height="302"
               viewBox="0 0 868 302"
