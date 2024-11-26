@@ -12,7 +12,7 @@ function ConsentCheckbox({ className = '' }) {
         <label htmlFor="consentCheckbox" className="w-full h-full cursor-pointer" />
       </div>
       <div className="flex-auto my-auto max-md:max-w-full">
-        I consent to Studio Vi storing my data so they can respond to my inquiry
+        I consent to InService storing my data so they can respond to my inquiry
       </div>
     </div>
   );

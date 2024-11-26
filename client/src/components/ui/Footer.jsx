@@ -4,43 +4,43 @@ import { FaArrowUp } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="bg-[#1B1B1B]  text-white">
-      <p className="text-7xl text-center font-semibold pt-20">
+      <p className="md:text-7xl max-md:text-4xl text-center font-semibold pt-20">
         Let’s grow and solve <br />
         together
       </p>
-      <div className="border border-white w-[180px] mt-16 mx-auto">
-        <ButtonM word="Get in touch" />
+      <div className="border border-white max-md:w-[401px] md:w-[180px] mt-16 mx-auto">
+        <ButtonM className="max-md:w-[400px] max-md:px-[140px]" word="Get in touch" />
       </div>
-      <div className="grid gap-x-24 grid-cols-4 px-32 pt-32">
+      <div className="grid max-md:px-5 max-md:gap-y-4 md:gap-x-24 md:grid-cols-4 md:px-32 pt-32">
         <div >
-          <p className="text-lg text-gray-400 font-semibold">ADDRESS</p>
+          <p className="text-lg text-gray-400 font-semibold max-md:pb-2">ADDRESS</p>
           <ul className="list-none space-y-2 text-xl mt-2">
-            <li>Wibautstraat 131-D</li>
-            <li>1091 GL Amsterdam</li>
+            <li>69 27th Main Road, Bengaluru, </li>
+            <li>Karnataka 560102, India</li>
           </ul>
         </div>
         <div >
-          <p className="text-lg text-gray-400 font-semibold">CONTACT</p>
+          <p className="text-lg text-gray-400 font-semibold max-md:pb-2 max-md:pt-8">CONTACT</p>
           <ul className="list-none space-y-2 text-xl mt-2">
-            <li>hello@viamsterdam.com</li>
-            <li>+31 20 777 00 17</li>
+            <li>Inservice@India.com</li>
+            <li>+91 7357x xxxxx</li>
           </ul>
         </div>
         <div >
-          <p className="text-lg text-gray-400 font-semibold">STAY UP TO DATE</p>
-          <div className="border-b-2 mt-2">
+          <p className="text-lg text-gray-400 font-semibold max-md:pb-2 max-md:pt-8">STAY UP TO DATE</p>
+          <div className="border-b-2 max-md:w-[210px] mt-2">
   <input
     type="text"
     placeholder="E-mail"
     className="bg-inherit outline-none"
   />
-  <button className="relative pl-16 group">
+  <button className="relative md:pl-16 group">
     <FaArrowUp className="ml-2 mt-1 origin-center transform rotate-45 transition-transform duration-500 ease-out group-hover:rotate-90" />
   </button>
 </div>
         </div>
         <div >
-          <p className="text-lg text-gray-400 font-semibold">SOCIAL MEDIA</p>
+          <p className="text-lg text-gray-400 font-semibold max-md:pb-2 max-md:pt-8">SOCIAL MEDIA</p>
           <ul className="list-none space-y-2 text-xl mt-2">
             <li>LinkedIn</li>
             <li>Instagram</li>
@@ -48,8 +48,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-        <div className="text-center pt-16 pb-20 flex flex-row gap-10 mx-20 text-[#868686]">
-            <p className="text-lg pr-[900px]">© 2024 Via India</p>
+        <div className="md:text-center pt-16 pb-20 flex max-md:flex-col md:flex-row md:gap-10 max-md:ml-4 md:mx-20 text-[#868686] ">
+            <p className="text-lg md:pr-[900px]">© 2024 Via India</p>
             <p className="text-lg pl-2">Privacy Policy</p>
             <p className="text-lg pl-2">Terms of Service</p>
 
