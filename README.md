@@ -1,19 +1,12 @@
 # InService
 
-A modern web application designed to [insert project description or purpose].
+This platform is designed to empower small businesses in India by providing a user-friendly online marketplace where businesses can set up digital storefronts, connect with local supply chains, and reach a broader audience. The goal is to create a bridge between small vendors and local consumers, fostering community and supporting local entrepreneurship..
 
 🌐 **Live Demo**: [InService Application](https://in-service-nlm3.vercel.app/)
 
 ---
 
-## 🚀 Features
 
-
-- [Feature 2: e.g., Intuitive Dashboard]
-- [Feature 3: e.g., Real-time Notifications]
-- [Feature 4: e.g., Responsive Design]
-
----
 
 ## 🛠️ Tech Stack
 
