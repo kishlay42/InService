@@ -9,6 +9,8 @@ const GoogleTranslate = () => {
         script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
         script.async = true;
         document.body.appendChild(script);
+      } else {
+        window.googleTranslateElementInit();
       }
     };
 
@@ -24,6 +26,19 @@ const GoogleTranslate = () => {
     };
 
     addGoogleTranslateScript();
+
+    return () => {
+      // Cleanup the script and widget when the component unmounts
+      const script = document.querySelector('script[src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"]');
+      if (script) {
+        document.body.removeChild(script);
+      }
+      const googleTranslateElement = document.getElementById('google_translate_element');
+      if (googleTranslateElement) {
+        googleTranslateElement.innerHTML = '';
+      }
+      window.googleTranslateElementInitialized = false;
+    };
   }, []);
 
   return <div id="google_translate_element"></div>;

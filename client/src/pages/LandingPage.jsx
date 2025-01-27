@@ -2,8 +2,9 @@ import Navbar from "../components/ui/Navbar";
 import ButtonM from "@/components/ui/ButtonM";
 import LandServices from "@/components/ui/LandServices";
 import Footer from "@/components/ui/Footer";
-import GoogleTranslate from "@/components/ui/GoogleTranslate";
+// import GoogleTranslate from "@/components/ui/GoogleTranslate";
 import { useEffect } from "react";
+import TranslateButton from "@/components/ui/TranslateButton";
 const LandingPage = () => {
   useEffect(() => {
     const cards = document.querySelectorAll(".card");
@@ -31,7 +32,7 @@ const LandingPage = () => {
     <div>
       <Navbar />
       <div className="bottom-4 right-0 fixed">
-        <GoogleTranslate />
+        <TranslateButton />
       </div>
 
       <div className="md:pl-52 md:mt-40 md:mb-36 max-md:p-2 max-md:mt-32">

@@ -148,14 +148,15 @@
 @keyframes draw {
   from {
     stroke-dasharray: 0;
+    stroke-dashoffset: 1000;
   }
   to {
     stroke-dasharray: 2500;
-    stroke-dashoffset: 1;
+    stroke-dashoffset: 0;
   }
 }
 
 .svg-draw path {
-  animation: draw 16s forwards;
+  animation: draw 7s forwards;
 }
 
